@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#title{
+	text-align: center;
+	font-family: Helvetica;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+section{
+	background-color: gray;
+	padding: 10px;
+	float: left;
+	border: 2px solid black;
+	position: relative;
+}
+
+div {
+	width: 120px;
+	font-weight: bold;
+	text-align: center;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+p{
+	position: relative;
+	top: 13px;
+}
+
+
+#item1{
+	background-color: pink;
+	
+}
+
+#item2{
+	background-color: red;
+	color: white;
+}
+
+#item3{
+	background-color: lightyellow;
+}
+
+/*desktop*/
+@media (min-width: 992px){
+	section{
+		float: left;
+		margin:1.5%;
+		width: 30%;
+	}
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+	#s1{
+		float: left;
+		margin:1.5%;
+		width: 47%;
+	}
+	#s2{
+		float: left;
+		margin:1.5%;
+		width: 47%;
+	}
+	#s3{
+		clear: left;
+		margin:1.5%;
+		width: 97%;
+	}
+}
+
+/*mobile*/
+@media(max-width: 767px){
+
+	#s1{
+		float: left;
+		margin:1.5%;
+		width: 97%;
+	}
+	#s2{
+		clear: left;
+		margin:1.5%;
+		width: 97%;
+	}
+	#s3{
+		clear: left;
+		margin:1.5%;
+		width: 97%;
+	}
+}
