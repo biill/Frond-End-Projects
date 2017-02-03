@@ -79,6 +79,7 @@ function clickedSquare(){
 function reset(){
 	colors=generateColors(numOfSquares);
 	pickedColor=pickSelected();
+	rgb.innerHTML="<br />" +pickedColor+ "<br />";
 	newGame.textContent="New Colors";
 	message.textContent="";
 	h1.style.background="steelblue";
